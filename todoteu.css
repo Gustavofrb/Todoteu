@@ -1,0 +1,68 @@
+body{
+
+  background: linear-gradient(to right, black, #00000000);
+  background-attachment: fixed;
+  background-position:  center;
+  background-size: cover;
+  border-top: 1px gray solid;
+
+}
+
+h1{
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 5px;
+  border-radius: 15px;
+}
+
+h2{
+  text-align: center;
+  font-family: sans-serif;
+}
+
+section{
+
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-10%, 0%);
+  
+  margin: 10px 5px 0px 0px;
+  display: block;
+  padding: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  text-shadow: 2px 2px 2px black;
+  right: 50%;
+  transform: translate(-50%, 0%);
+  border: 5px;
+  display: inline-block;
+}
+footer {
+  display: inline-block;
+}
+
+footer i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer p {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+
+i{
+font-size: 30px;
+color: green;
+}
